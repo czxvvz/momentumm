@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title> Momentum </title>
+        <link rel="stylesheet" href="css/owfont-regular.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body class="body">
+        <div class="Name">
+            <time class="time"></time>
+            <div>
+                <date class="date"></date>
+            </div>
+            <div class="div-greeting">
+                <span class="greeting"></span>
+                <input type="text" class="name" value="">
+            </div>
+        </div>
+        <div class="weather">
+            <input type="text" class="input-city" value="Minsk">
+            <i class="weather-icon owf"></i>
+            <div class="temperature"></div>
+            <div class="speed"></div>
+            <div class="humidity"></div>
+            <div class="weather-description"></div> 
+        </div>
+        <div class="settings">
+            <div>
+                <select class="language">
+                    <option value="0">en</option>
+                    <option value="1">ru</option>
+                </select>
+            </div>
+            <div>
+                <select class="sourceFont">
+                    <option value="0">github</option>
+                    <option value="1">UnsplashAPI</option>
+                    <option value="1">FlickrAPI</option>
+                </select>
+            </div>
+            <div>
+                <input type="text" class="tags">
+            </div>
+        </div>
+        <button class="slidePrev"></button>
+        <button class="slideNext"></button>
+        <div class="audioDiv">
+            <audio class="audio" src="audio/rock.mp3"></audio>
+            <button class="play-prev"></button>
+            <button class="audio-play"></button>
+            <button class="play-next"></button>
+            <h3 class="audioName"> ... </h3>
+            <button class="isSound"></button>
+            <div class="duration-player">
+                <div class="timer-player"></div>
+            </div>
+            <input type="range" class="soundVolume" min="0" max="100" value="100" step="1">
+            <div class="timer">
+                <b> 00:</b> 
+                <b class="timeNow">00</b>
+                <b> / </b>
+                <b class="timeEnd">00:00</b>
+            </div>
+        </div>
+        <ul class="play-list"></ul>
+        <div class="Quotes">
+            <h4 class="quote"></h4>
+            <b class="author"></b>
+            <button class="bQuote"></button>
+        </div>
+        <script type="module" src="js/translate.js"></script>
+        <script type="module" src="js/ClockDate.js"></script>
+        <script src="js/Name.js"></script>
+        <script type="module" src="js/Slider.js"></script>
+        <script type="module" src="js/Weather.js"></script>
+        <script type="module" src="js/quote.js"></script>
+        <script type="module" src="js/audio.js"></script>
+        <script type="module" src="js/playlist.js"> </script>
+        <script type="module" src="js/Unsplash.js"> </script>
+        <script type="module" src="js/Flickr.js"> </script>
+        <script type="module" src="js/fonts.js"> </script>
+    </body>
+</html>

@@ -1,0 +1,148 @@
+.body{
+  background-size: 100% 100%;
+}
+.slideNext{
+    height:60px;
+    width:60px;
+    background-image: url("../assets/svg/slider-next.svg");
+}
+
+.slidePrev{
+    height:60px;
+    width:60px;
+    background-image: url("../assets/svg/slider-prev.svg");
+}
+
+.audio-play {
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    background-image: url("../assets/svg/play.svg");
+  }
+
+.numAudio {
+   width: 50px;
+   height: 50px;
+   background-size: 50px 50px;
+   background-image: url("../assets/svg/play.svg");
+}
+
+.bQuote{
+  width: 50px;
+  height: 50px;
+}
+  
+  .pause {
+    background-image: url("../assets/svg/pause.svg");
+  }
+  
+  .play-prev {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    background-image: url("../assets/svg/play-prev.svg");
+  }
+  
+  .play-next {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    background-image: url("../assets/svg/play-next.svg");
+  }
+
+  .play-list {
+    text-align: left;
+    font-size:20px;
+    color:white;
+  }
+
+  .play-item {
+    position: relative;
+    padding: 5px;
+    padding-left: 20px;
+    list-style: none;
+    opacity: .8;
+    cursor: pointer;
+    transition: .3s;
+    width:300px;
+  }
+
+  .audioDiv {
+    margin-top: 200px;
+    width:500px;
+    height:200px;
+    background-color: brown;
+  }
+
+  .isSound{
+    width: 20px;
+    height: 20px;
+    background-size: 18px 18px;
+    background-image: url("../assets/svg/sOn.svg");
+  }
+
+  .isntSound
+  {
+    background-image: url("../assets/svg/sOf.svg");
+  }
+
+.duration-player{
+  position: relative;
+  width:200px;
+  height:10px;
+  background-color:white;
+}
+
+.timer-player{
+  position:absolute;
+  width:10%;
+  height:10px;
+  background-color: tomato;
+  z-index:1;
+}
+
+.time{
+  font-size: 60px;
+  color:white
+}
+
+.date{
+  font-size: 50px;
+  color:white
+}
+
+.greeting{
+  font-size: 40px;
+  color:white
+}
+
+div.Name{
+  float:left;
+}
+
+div.weather{
+  float:left;
+}
+        
+.temperature,
+.speed,
+.humidity,
+.weather-description
+{
+  font-size:30px;
+  color:white;
+} 
+
+.owf{
+  font-size:50px;
+  color:white;
+}
+
+.settings{
+  float:left;
+}
+
+.quotes{
+  font-size:30px;
+  color:white;
+}
